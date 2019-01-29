@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url('bg div.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.contain{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header
+{
+    height: 13vh;
+    width: 100%;
+    background: linear-gradient(rgb(64,65,72),rgb(49,51,57));
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 15px;
+    letter-spacing: 10px;
+}
+.fa-plus-circle,.fa-times-circle
+{
+    color:red;
+    font-size: 300%;
+}
+
+.main-section
+{
+    height: 87vh;
+    position: relative;
+}
+
+.side-bar{
+    height: 87vh;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: #fff;
+}
+.side-bar-items{
+    color: black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-right: 2px solid black;
+}
+
+
+
+.side-bar-item
+{   height: 35vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 1vh;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.side-bar-item:first-child
+{
+    height: 8vh;
+    background-color: #e67e22;
+    color: white;
+}
+
+.c-attended
+{
+    color: white;
+    background-color:dodgerblue;
+    height: 15vh;
+}
+.bootom-space
+{
+    height: 100vh;
+    width: 10px;
+}
+.chart
+{
+    margin-top: 2vh;
+}
+
+.max-perc,.cur-perc
+{
+    font-weight: 700;
+}
+.modal
+{
+    color: black;
+}
+
+.invisible
+{
+    display: none;
+}
+
+.attendence-card
+{
+    color: black;
+   transform: translate(10%,10%)
+}
+
+
+.card
+{
+    margin-right: 10%;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+    height: 150px;
+    width: 200px;
+    letter-spacing: 1px;
+    padding: 0px!important;
+    box-shadow: 0 45px 50px 0 rgba(0, 0,0, 0.2),0 40px 60px 0 rgba(0, 0,0, .17);
+    text-align: center;
+}
+
+.card-body
+{
+    text-align: center;
+}
+.attendence-percentage
+{
+    margin-top: 5%;
+    font-weight: 700;
+}
+
+.attendence-fraction
+{
+    margin-top: 1%;
+    font-style: italic;
+}
+
+.card-header
+{
+    background-color: tomato;
+    height: 50px;
+    margin: 0!important;
+}
+
+.btn-add-sub
+{
+    margin: 0 auto;
+    position: absolute;
+    top: 35vh;
+    left: 50vh;
+}
+
+.fa-pencil
+{
+    float: right;
+}
